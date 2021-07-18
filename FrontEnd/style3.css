@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+    height:9vh;
+    margin:auto;
+    align-items:center;
+    background-color:steelblue;
+    box-sizing: border-box;
+    position: relative;
+}
+.sub-header{
+    width:100px;
+    height:7vh;
+    margin-top:5px;
+    float:left;
+    
+}
+.card{
+    background-color: thistle;
+    width:232px;
+}
+.card:hover{
+    box-shadow: 4px 4px 4px gray;
+}
+.btn-block{
+    padding:10% 0;
+    font-size:15px;
+    border-radius: 3px;
+    background: none;
+    color:white;
+    border:none;
+  
+}
+.btn-block:hover{
+    background: black;
+    color: white;
+}
+label{
+    color:navy;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cont1{
+    background: url('images/pinky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91vh;
+    width: 100%;
+    position:absolute; 
+    overflow-y: hidden;
+}
+.btn-primary{
+    width:100px;
+    font-size:15px;
+}
+.onecust{
+    
+    padding-left:550px;
+}
+#transfer-amt{
+    
+    font-size:20px;
+    font-weight:bold;
+    color:red;
+}
+.person-det{
+    position: relative;
+    margin-left:600px;
+    margin-top:130px;
+}
+table{
+    width:60%;
+    max-width:80%;
+    margin-left:100px;
+    margin-top:20px;
+}
+tr{
+    font-size:larger;
+}
+td{
+    font-size:large;
+    text-align: left;
+}
